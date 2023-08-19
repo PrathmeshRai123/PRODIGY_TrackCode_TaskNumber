@@ -1,1 +1,194 @@
-hh
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrathmeshFitnessClub - The best fitness gym in the town</title>
+    <link rel="stylesheet" href="styles01.css">
+    <link rel="stylesheet" href="utils01.css">
+</head>
+
+<body class='overflow-x-hidden'>
+    <div class="container mx-auto">
+        <header>
+            <nav class="flex justify-between">
+                <div class="logo font-bold flex items-center text-blue">PrathmeshFitnessClub</div>
+                <ul class="navbar flex items-center">
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact Us</li>
+                    <li><button class="btn">Join Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen">
+            <section class="section1">
+                <div class="flex">
+                    <div class="topleft flex flex-col justify-center px-2">
+                        <div class=" text-center">
+                            <img class="dumbelling" src="c:\Users\Prathmesh Rai\Downloads\dumbell.png" alt="">
+                        </div>
+                        <h1 class="my-1 text-center">The best fitness Gym in the town is here</h1>
+                        <p class=" text-center">"Welcome to Prathmesh Fitness Club - your ultimate destination for achieving peak fitness. Our state-of-the-art facility, expert trainers, and inclusive community create the perfect environment to unlock your full potential. Join us today and embark on a journey toward a healthier, stronger you."</p>
+                            <!-- Display the countdown timer in an element -->
+                            <p class="deal text-center">The deal ends in next 24 Hour <span id="demo"></span></p>
+                            <div class="buttons">
+                                <button class="btn">Join now</button>
+                                <button class="btn">Contact Us</button>
+                            </div>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img class="gymimg" src="c:\Users\Prathmesh Rai\Downloads\R.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                <h1 class="text-center my-2">Pricing</h1>
+                <p class="my-2">Certainly, here's an example of gym pricing options for Free, Pro, and Enterprise tiers, along with their respective benefits:
+                    <p>
+                    **Free Tier:**
+                    
+                    **Price:** 0/month
+                    
+                    **Benefits:**
+                    1. **Access to Basic Equipment:** Full access to our gym's basic workout equipment.
+                    2. **Limited Group Classes:** Attend a selection of group fitness classes.
+                    3. **Basic Workout Plans:** Access to predefined workout plans.
+                    4. **General Support:** Email support for general inquiries.
+                    5. **Community Access:** Connect with fellow gym-goers in our community forums.
+                    </p>
+                    <p>
+                    **Pro Tier:**
+                    
+                    **Price:** ₹800/month
+                    
+                    **Benefits:**
+                    1. **Full Gym Access:** Unlimited access to all gym equipment.
+                    2. **Unlimited Group Classes:** Attend any group fitness class, anytime.
+                    3. **Personalized Workout Plans:** Receive customized workout plans tailored to your goals.
+                    4. **Nutrition Guidance:** Access to personalized nutrition advice.
+                    5. **Priority Support:** Fast-tracked email and phone support.
+                    6. **Exclusive Events:** Invitations to exclusive gym events and workshops.
+                    </p>
+                    <p>
+                    **Enterprise Tier:**
+                    
+                    **Price:** ₹1200
+                    
+                    **Benefits:**
+                    1. **Corporate Wellness:** Tailored gym memberships for your organization's employees.
+                    2. **Dedicated Trainers:** Access to personal trainers for on-site guidance.
+                    3. **Custom Fitness Solutions:** Design and implement custom fitness programs.
+                    4. **Advanced Analytics:** Comprehensive data analytics for tracking employee wellness.
+                    5. **Priority 24/7 Support:** Priority support with 24/7 availability.
+                    6. **Branding Opportunities:** Co-branding opportunities for your organization.
+                    7. **Bulk Discounts:** Special pricing for large employee groups.</p>
+                    
+                    These tiers cater to individuals and organizations of varying needs and budgets, ensuring that everyone can find the right fitness solution with tailored benefits.</p>
+                <div class="boxes flex justify-center">
+                    <div class="box">
+                        <h2>Free</h2>
+                        <ul>
+                            <li class="highlighted">₹0/month</li>
+                            <li>0 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Pro</h2>
+                        <ul>
+                            <li class="highlighted">₹800/month</li>
+                            <li>0 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2>Enterprise</h2>
+                        <ul>
+                            <li class="highlighted">₹1200/month</li>
+                            <li>0 users included</li>
+                            <li>2 GB of storage</li>
+                            <li>Email support</li>
+                            <li>Help center access</li>
+                            <li><button class="btn">Signup Now</button></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+            <hr>
+            <section class="section3">
+                <h1 class="text-center my-2">Compare Plans</h1>
+                <div class="container plantable">
+                    <table class="table text-center">
+                      <thead>
+                        <tr>
+                          <th></th><th>Free</th>
+                          <th>Pro</th>
+                          <th>Enterprise</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Public</th>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Private</th>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                      </tbody>
+              
+                      <tbody>
+                        <tr>
+                          <th scope="row" class="text-start">Permissions</th>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Sharing</th>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Unlimited members</th>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                          <td>Yes</svg></td>
+                        </tr>
+                        <tr>
+                          <th scope="row" class="text-start">Extra security</th>
+                          <td>-</td>
+                          <td>-</td>
+                          <td>Yes</svg></td>
+                        </tr>
+                      </tbody>
+                    </table>
+            </section>
+            <hr>
+        </main>
+        <footer>
+            Copyright &copy; PrathmeshFitnessclub.com | All rights reserved
+        </footer>
+
+    </div>
+</body>
+
+</html>
